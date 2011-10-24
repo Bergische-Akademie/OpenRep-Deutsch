@@ -1,0 +1,12 @@
+<patient>
+	<unique_id>1</unique_id>
+	<name>Körschgen</name>
+	<surname>Joscha</surname>
+	<address>Am Langen Siepen 19</address>
+	<telephone></telephone>
+	<email></email>
+	<comment></comment>
+	<date_of_birth>2010/01/01</date_of_birth>
+	<sex>M</sex>
+	<additional_information></additional_information>
+</patient>

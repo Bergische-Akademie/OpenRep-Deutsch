@@ -1,0 +1,1306 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.6">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPanel" name="mainPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="mainPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="SearchEdit" pref="592" max="32767" attributes="3"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="29" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jSplitPane1" alignment="1" pref="627" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="180" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jToolBar2" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jToolBar1" alignment="0" pref="858" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jToolBar1" min="-2" pref="34" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jScrollPane1" pref="499" max="32767" attributes="2"/>
+                      <Component id="jToolBar2" alignment="0" pref="499" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jButton1" min="-2" pref="28" max="-2" attributes="0"/>
+                              <Component id="SearchEdit" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jSplitPane1" pref="458" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JToolBar" name="jToolBar1">
+          <Properties>
+            <Property name="floatable" type="boolean" value="false"/>
+            <Property name="rollover" type="boolean" value="true"/>
+            <Property name="name" type="java.lang.String" value="jToolBar1" noResource="true"/>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[143, 45]"/>
+            </Property>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="NewSessionButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="NewSessionButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="NewSessionButton.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="NewSessionButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="OpenSessionButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="OpenSessionButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="OpenSessionButton.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="maximumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[35, 35]"/>
+                </Property>
+                <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[35, 35]"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="OpenSessionButton" noResource="true"/>
+                <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                  <Dimension value="[35, 35]"/>
+                </Property>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="SaveSessionButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="SaveSessionButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="SaveSessionButton.text"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="SaveSessionButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToolBar$Separator" name="jSeparator3">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator3" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="OpenRepertoryButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="OpenRepertoryButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="OpenRepertoryButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="OpenRepertoryButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="OpenRepertoryButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToolBar$Separator" name="jSeparator9">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator9" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="ReversedMMButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="ReversedMMButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="ReversedMMButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="ReversedMMButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="ReversedMMButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="PMSButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="PMSButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="PMSButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="PMSButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="PMSButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JToolBar$Separator" name="jSeparator20">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator20" noResource="true"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="PrevSearchButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="PrevSearchButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="PrevSearchButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="PrevSearchButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="PrevSearchButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="RepertoryTreeButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="RepertoryTreeButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="RepertoryTreeButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="RepertoryTreeButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RepertoryTreeButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="NextSearchButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="NextSearchButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="NextSearchButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="NextSearchButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="NextSearchButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="SearchEdit">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="SearchEdit.text"/>
+            <Property name="name" type="java.lang.String" value="SearchEdit" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="SearchEditKeyReleased"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="jScrollPane1" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="RemSymptomTable">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="name" type="java.lang.String" value="RemSymptomTable" noResource="true"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="RemSymptomTableMouseClicked"/>
+                <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="RemSymptomTableKeyPressed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JToolBar" name="jToolBar2">
+          <Properties>
+            <Property name="floatable" type="boolean" value="false"/>
+            <Property name="orientation" type="int" value="1"/>
+            <Property name="rollover" type="boolean" value="true"/>
+            <Property name="name" type="java.lang.String" value="jToolBar2" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="RepertorizeButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="RepertorizeButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="RepertorizeButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="RepertorizeButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RepertorizeButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="RepertorizationResultsButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="RepertorizationResultsButton.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="RepertorizationResultsButton.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="RepertorizationResultsButton.toolTipText"/>
+                <Property name="focusable" type="boolean" value="false"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+                <Property name="name" type="java.lang.String" value="RepertorizationResultsButton" noResource="true"/>
+                <Property name="verticalTextPosition" type="int" value="3"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JSplitPane" name="jSplitPane1">
+          <Properties>
+            <Property name="orientation" type="int" value="0"/>
+            <Property name="name" type="java.lang.String" value="jSplitPane1" noResource="true"/>
+          </Properties>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="jPanel1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jPanel1" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                  <JSplitPaneConstraints position="left"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jScrollPane3" pref="590" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToolBar3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jScrollPane3" alignment="1" pref="166" max="32767" attributes="0"/>
+                              <Component id="jToolBar3" alignment="1" pref="166" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="0" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JToolBar" name="jToolBar3">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="name" type="java.lang.String" value="jToolBar3" noResource="true"/>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="AddSymptomToRepertorizationButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="AddSelectedSymptomsButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="AddSelectedSymptomsButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="AddSelectedSymptomsButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="AddSelectedSymptomsButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator5">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator5" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="AddMergedSymptomsButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="AddMergedSymptomsButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="AddMergedSymptomsButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="AddMergedSymptomsButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="AddMergedSymptomsButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="AddNewSymptomButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="AddNewSymptomButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="AddNewSymptomButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="AddNewSymptomButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="AddNewSymptomButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="DeleteSymptomButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DeleteSymptomButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DeleteSymptomButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DeleteSymptomButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DeleteSymptomButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="EditSymptomButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="EditSymptomButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="EditSymptomButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="EditSymptomButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="EditSymptomButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator7">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator7" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="EditRemedyAdditionsButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="EditRemedyAdditionsButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="EditRemedyAdditionsButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="EditRemedyAdditionsButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="EditRemedyAdditionsButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="EditRemedyAdditionsButtonActionPerformed"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jScrollPane3" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTree" name="SymptomTree">
+                      <Properties>
+                        <Property name="model" type="javax.swing.tree.TreeModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                          <ComponentRef name="null"/>
+                        </Property>
+                        <Property name="dragEnabled" type="boolean" value="true"/>
+                        <Property name="name" type="java.lang.String" value="SymptomTree" noResource="true"/>
+                        <Property name="rootVisible" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="treeWillExpand" listener="javax.swing.event.TreeWillExpandListener" parameters="javax.swing.event.TreeExpansionEvent" handler="SymptomTreeTreeWillExpand"/>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SymptomTreeMouseClicked"/>
+                        <EventHandler event="valueChanged" listener="javax.swing.event.TreeSelectionListener" parameters="javax.swing.event.TreeSelectionEvent" handler="SymptomTreeValueChanged"/>
+                        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="SymptomTreeMouseDragged"/>
+                        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="SymptomTreeKeyPressed"/>
+                        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="SymptomTreeKeyReleased"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="jPanel2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jPanel2" noResource="true"/>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JSplitPaneSupportLayout$JSplitPaneConstraintsDescription">
+                  <JSplitPaneConstraints position="right"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToolBar5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane5" pref="555" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jToolBar4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jToolBar5" alignment="0" pref="285" max="32767" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jToolBar4" pref="274" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane5" alignment="0" pref="285" max="32767" attributes="0"/>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+                  <Properties>
+                    <Property name="name" type="java.lang.String" value="jScrollPane5" noResource="true"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTree" name="RemSymptomsTree">
+                      <Properties>
+                        <Property name="model" type="javax.swing.tree.TreeModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                          <ComponentRef name="null"/>
+                        </Property>
+                        <Property name="dragEnabled" type="boolean" value="true"/>
+                        <Property name="name" type="java.lang.String" value="RemSymptomsTree" noResource="true"/>
+                        <Property name="rootVisible" type="boolean" value="false"/>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="RemSymptomsTreeMouseClicked"/>
+                        <EventHandler event="treeCollapsed" listener="javax.swing.event.TreeExpansionListener" parameters="javax.swing.event.TreeExpansionEvent" handler="RemSymptomsTreeTreeCollapsed"/>
+                        <EventHandler event="treeExpanded" listener="javax.swing.event.TreeExpansionListener" parameters="javax.swing.event.TreeExpansionEvent" handler="RemSymptomsTreeTreeExpanded"/>
+                        <EventHandler event="mouseDragged" listener="java.awt.event.MouseMotionListener" parameters="java.awt.event.MouseEvent" handler="RemSymptomsTreeMouseDragged"/>
+                        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="RemSymptomsTreeKeyPressed"/>
+                        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="RemSymptomsTreeKeyReleased"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JToolBar" name="jToolBar4">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="name" type="java.lang.String" value="jToolBar4" noResource="true"/>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JButton" name="DeleteSymptomFromRepertorizationButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DeleteSelectedSymptoms.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DeleteSelectedSymptoms.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DeleteSelectedSymptoms.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DeleteSelectedSymptoms" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="MergeSymptomsButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="MergeSymptomsButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="MergeSymptomsButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="MergeSymptomsButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="MergeSymptomsButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToolBar$Separator" name="jSeparator18">
+                      <Properties>
+                        <Property name="name" type="java.lang.String" value="jSeparator18" noResource="true"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="PositiveFilterButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="PositiveFilterButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="PositiveFilterButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="PositiveFilterButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="PositiveFilterButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JButton" name="NegativeFilterButton">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="NegativeFilterButton.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="NegativeFilterButton.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="NegativeFilterButton.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="NegativeFilterButton" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JToolBar" name="jToolBar5">
+                  <Properties>
+                    <Property name="floatable" type="boolean" value="false"/>
+                    <Property name="orientation" type="int" value="1"/>
+                    <Property name="rollover" type="boolean" value="true"/>
+                    <Property name="name" type="java.lang.String" value="jToolBar5" noResource="true"/>
+                  </Properties>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JToggleButton" name="DesktopButton_1">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DesktopButton_1.icon"/>
+                        <Property name="selected" type="boolean" value="true"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DesktopButton_1.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DesktopButton_1.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DesktopButton_1" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="DesktopButton_2">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DesktopButton_2.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DesktopButton_2.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DesktopButton_2.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DesktopButton_2" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="DesktopButton_3">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DesktopButton_3.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DesktopButton_3.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DesktopButton_3.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DesktopButton_3" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="DesktopButton_4">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DesktopButton_4.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DesktopButton_4.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DesktopButton_4.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DesktopButton_4" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                    <Component class="javax.swing.JToggleButton" name="DesktopButton_5">
+                      <Properties>
+                        <Property name="icon" type="javax.swing.Icon" resourceKey="DesktopButton_5.icon"/>
+                        <Property name="text" type="java.lang.String" resourceKey="DesktopButton_5.text"/>
+                        <Property name="toolTipText" type="java.lang.String" resourceKey="DesktopButton_5.toolTipText"/>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="horizontalTextPosition" type="int" value="0"/>
+                        <Property name="name" type="java.lang.String" value="DesktopButton_5" noResource="true"/>
+                        <Property name="verticalTextPosition" type="int" value="3"/>
+                      </Properties>
+                    </Component>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" resourceKey="jButton1.icon"/>
+            <Property name="text" type="java.lang.String" resourceKey="jButton1.text"/>
+            <Property name="toolTipText" type="java.lang.String" resourceKey="jButton1.toolTipText"/>
+            <Property name="name" type="java.lang.String" value="jButton1" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JMenuBar" name="menuBar">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="menuBar" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="fileMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="fileMenu.text"/>
+            <Property name="name" type="java.lang.String" value="fileMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="newMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+N"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="newMenuItem.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="newMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="newMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator1" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="openMenuItem">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="openMenuItem.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="openMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="openMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="saveMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+S"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="saveMenuItem.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="saveMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="saveMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="saveasMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="saveasMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="saveasMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator2">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator2" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="PreferencesMenuItem">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="PreferencesMenuItem.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="PreferencesMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="PreferencesMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ConsoleButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ConsoleButton.text"/>
+                <Property name="name" type="java.lang.String" value="ConsoleButton" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator12">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator12" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="exitMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+X"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" resourceKey="exitMenuItem.icon"/>
+                <Property name="text" type="java.lang.String" resourceKey="exitMenuItem.text"/>
+                <Property name="actionCommand" type="java.lang.String" resourceKey="exitMenuItem.actionCommand"/>
+                <Property name="name" type="java.lang.String" value="exitMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu4">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu4.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu4" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="AddSymptomToRepertorizationMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F4"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="AddSymptomToRepertorizationMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="AddSymptomToRepertorizationMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="AddMergedSymptomsToRepertorization_MainMenu">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F12"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="AddMergedSymptomsToRepertorization_MainMenu.text"/>
+                <Property name="name" type="java.lang.String" value="AddMergedSymptomsToRepertorization_MainMenu" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DeleteSymptomFromRepertorizationMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F5"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DeleteSymptomFromRepertorizationMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DeleteSymptomFromRepertorizationMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator14">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator14" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="AddSymptomToRepertoryMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+W"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="AddSymptomToRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="AddSymptomToRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DeleteSymptomFromRepertoryMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+D"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DeleteSymptomFromRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DeleteSymptomFromRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="EditSymptomNameMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+E"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="EditSymptomNameMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="EditSymptomNameMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="EditRemedyAdditionsMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+R"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="EditRemedyAdditionsMenuItem.text"/>
+                <Property name="actionCommand" type="java.lang.String" resourceKey="EditRemedyAdditionsMenuItem.actionCommand"/>
+                <Property name="name" type="java.lang.String" value="EditRemedyAdditionsMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator16">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator16" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="EssentialMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="EssentialMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="EssentialMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="VeryImportantMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+2"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="VeryImportantMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="VeryImportantMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ImportantMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="ImportantMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="ImportantMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="AverageMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+4"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="AverageMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="AverageMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="NotImportantMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+5"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="NotImportantMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="NotImportantMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator17">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator17" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="MergeSymptomsMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F7"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="MergeSymptomsMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="MergeSymptomsMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu3.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu3" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="ReversedMateriaMedicaMeduItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ReversedMateriaMedicaMeduItem.text"/>
+                <Property name="name" type="java.lang.String" value="ReversedMateriaMedicaMeduItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="PMS_MenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="PMS_MenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="PMS_MenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator15">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator15" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DisplaySymptomReferencesMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F3"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DisplaySymptomReferencesMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DisplaySymptomReferencesMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DisplayRemedyAdditionsMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DisplayRemedyAdditionsMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DisplayRemedyAdditionsMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMenu5">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="jMenu5.text"/>
+                <Property name="name" type="java.lang.String" value="jMenu5" noResource="true"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="Desktop1MenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="Desktop1MenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="Desktop1MenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="Desktop2MenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+2"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="Desktop2MenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="Desktop2MenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="Desktop3MenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+3"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="Desktop3MenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="Desktop3MenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="Desktop4MenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+4"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="Desktop4MenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="Desktop4MenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="Desktop5MenuItem">
+                  <Properties>
+                    <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                      <KeyStroke key="Ctrl+5"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" resourceKey="Desktop5MenuItem.text"/>
+                    <Property name="name" type="java.lang.String" value="Desktop5MenuItem" noResource="true"/>
+                  </Properties>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator13">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator13" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="PreviousSearchResultMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+PAGE_UP"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="PreviousSearchResultMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="PreviousSearchResultMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="NextSearchMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+PAGE_DOWN"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="NextSearchMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="NextSearchMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="RepertoryTreeMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+UP"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="RepertoryTreeMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="RepertoryTreeMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator21">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator21" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DisplayTopRubricMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+R"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DisplayTopRubricMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DisplayTopRubricMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DisplayHigherRubricMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Alt+H"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DisplayHigherRubricMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="DisplayHigherRubricMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu1.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu1" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="importRepertoryMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="importRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="importRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="removeRepertoryMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="removeRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="removeRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator6">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator6" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="openRepertoryMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="openRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="openRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator8">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator8" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="NewRepertoryButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="NewRepertoryButton.text"/>
+                <Property name="name" type="java.lang.String" value="NewRepertoryButton" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="SaveRepertoryMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="SaveRepertoryMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="SaveRepertoryMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="SaveRepertoryAsMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="SaveRepertoryAsMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="SaveRepertoryAsMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator10">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator10" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="RepertoryPropertiesButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="RepertoryPropertiesButton.text"/>
+                <Property name="actionCommand" type="java.lang.String" value="Repertoriumeinstellungen"/>
+                <Property name="name" type="java.lang.String" value="RepertoryPropertiesButton" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator11">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator11" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="ExportRepertoryChangesMenuItem">
+              <Properties>
+                <Property name="text" type="java.lang.String" resourceKey="ExportRepertoryChangesMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="ExportRepertoryChangesMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="jMenu2.text"/>
+            <Property name="name" type="java.lang.String" value="jMenu2" noResource="true"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="RepertorizeMenuItem">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F9"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="RepertorizeMenuItem.text"/>
+                <Property name="name" type="java.lang.String" value="RepertorizeMenuItem" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="DisplayFullResults">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+F9"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="DisplayFullResults.text"/>
+                <Property name="actionCommand" type="java.lang.String" resourceKey="DisplayFullResults.actionCommand"/>
+                <Property name="name" type="java.lang.String" value="DisplayFullResults" noResource="true"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JSeparator" name="jSeparator4">
+              <Properties>
+                <Property name="name" type="java.lang.String" value="jSeparator4" noResource="true"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="helpMenu">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="helpMenu.text"/>
+            <Property name="name" type="java.lang.String" value="helpMenu" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="aboutMenuItem">
+              <Properties>
+                <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
+                  <action class="prescriber.PrescriberView" id="showAboutBox" methodName="showAboutBox"/>
+                </Property>
+                <Property name="text" type="java.lang.String" resourceKey="aboutMenuItem.text"/>
+                <Property name="toolTipText" type="java.lang.String" resourceKey="aboutMenuItem.toolTipText"/>
+                <Property name="name" type="java.lang.String" value="aboutMenuItem" noResource="true"/>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+              </AuxValues>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="statusPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="statusPanel" noResource="true"/>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[858, 28]"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="statusAnimationLabel" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="statusMessageLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="555" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="statusPanelSeparator" pref="565" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="64" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="SymptomCntLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="statusPanelSeparator" min="-2" pref="2" max="-2" attributes="0"/>
+                  <EmptySpace pref="20" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="statusMessageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="statusAnimationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="progressBar" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="SymptomCntLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JSeparator" name="statusPanelSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusPanelSeparator" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableLocal" type="java.lang.Boolean" value="true"/>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="0"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusMessageLabel">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="statusMessageLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="statusAnimationLabel">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="name" type="java.lang.String" value="statusAnimationLabel" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JProgressBar" name="progressBar">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="progressBar" noResource="true"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="SymptomCntLabel">
+          <Properties>
+            <Property name="font" type="java.awt.Font" resourceKey="SymptomCntLabel.font"/>
+            <Property name="foreground" type="java.awt.Color" resourceKey="SymptomCntLabel.foreground"/>
+            <Property name="text" type="java.lang.String" resourceKey="SymptomCntLabel.text"/>
+            <Property name="name" type="java.lang.String" value="SymptomCntLabel" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="jScrollPane2" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTree" name="STree">
+          <Properties>
+            <Property name="model" type="javax.swing.tree.TreeModel" editor="org.netbeans.modules.form.ComponentChooserEditor">
+              <ComponentRef name="null"/>
+            </Property>
+            <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[63, 57]"/>
+            </Property>
+            <Property name="name" type="java.lang.String" value="STree" noResource="true"/>
+            <Property name="rootVisible" type="boolean" value="false"/>
+          </Properties>
+          <Events>
+            <EventHandler event="treeWillExpand" listener="javax.swing.event.TreeWillExpandListener" parameters="javax.swing.event.TreeExpansionEvent" handler="STreeTreeWillExpand"/>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="STreeMouseClicked"/>
+            <EventHandler event="treeExpanded" listener="javax.swing.event.TreeExpansionListener" parameters="javax.swing.event.TreeExpansionEvent" handler="STreeTreeExpanded"/>
+            <EventHandler event="valueChanged" listener="javax.swing.event.TreeSelectionListener" parameters="javax.swing.event.TreeSelectionEvent" handler="STreeValueChanged"/>
+            <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="STreeKeyReleased"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="component" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="mainPanel"/>
+    </Property>
+    <Property name="menuBar" type="javax.swing.JMenuBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="menuBar"/>
+    </Property>
+    <Property name="statusBar" type="javax.swing.JComponent" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="statusPanel"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,87,0,0,3,90"/>
+  </AuxValues>
+</Form>

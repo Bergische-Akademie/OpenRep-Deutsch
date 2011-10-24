@@ -1,0 +1,15 @@
+==============================================================================
+
+Error while reading the icon files null
+Initializing
+Reading the repertory file: D:\openrep_source_RC2\dist\rep.rdx
+Processing the repertory descriptor file: D:\openrep_source_RC2\dist\kent_deutsch\kent.rd
+References file name not found in the repertory descriptor file: D:\openrep_source_RC2\dist\kent_deutsch\kent.rd
+Sources file name not found in the repertory descriptor file: D:\openrep_source_RC2\dist\kent_deutsch\kent.rd
+Added repertory descriptor file for repertory: Kent, Homoeopatisches Repertorium
+Reading the symptom tree file: D:\openrep_source_RC2\dist\kent_deutsch\kent_tree
+Error while reading the reference file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
+Error while reading the source file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
+Reading the symptom tree file: D:\openrep_source_RC2\dist\kent_deutsch\kent_tree
+Error while reading the reference file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
+Error while reading the source file name: null for repertory:Kent, Homoeopatisches Repertorium Exception = D:\openrep_source_RC2\dist\kent_deutsch\null (Das System kann die angegebene Datei nicht finden)
